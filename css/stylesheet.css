@@ -1,0 +1,190 @@
+.hidden {
+	display: none;
+}
+
+nav {
+	background: #B5794E;
+	width: 100%;
+	height: 80px;
+	z-index: 999;
+}
+
+nav ul {
+	float: right;
+	margin-right: 100px;
+	margin-top: 30px;
+}
+
+nav ul li {
+	display: inline-block;
+	color: #fff;
+	font-weight: 300;
+	padding-right: 20px;
+}
+
+section#main {
+	/*background: url("../images/main.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+*/	width: 100%;
+	height: 100%;
+	position: absolute;
+	
+
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	height: 20px;
+	width: 100%;
+	background: #31363A;
+
+}
+
+.progress {
+	height: 35px;
+	width: 60%;
+	margin: 50px auto 0px auto;
+}
+
+.progress div {
+	display: inline-block;
+	height: 100%;
+	width: 24.3%;
+	text-align: center;
+}
+
+#bar-1, #bar-2, #bar-3, #bar-4 {
+	color: #fff;
+	font-weight: 300;
+	padding-top: 15px;
+}
+
+
+#bar-1 {
+	background: #D9B138;
+
+}
+
+#bar-2, #bar-3, #bar-4 {
+	background: #CCCCCC;
+}
+
+#results {
+	height:500px;
+}
+
+.search-area {
+	width: 75%;
+	margin: 100px auto 0 auto;
+	text-align: center;
+}
+
+.search-area h1 {
+
+	font-weight: 300;
+	font-size: 36px;
+	padding-bottom: 20px;
+}
+
+input[type="text"] {
+	margin: 0;
+	width: 350px;
+	height: 40px;
+	font-size: 20px;
+	font-weight: 300;
+	box-shadow: none;
+	border: solid 1px #bfbfbf;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+input[type="text"]:hover {
+	border: solid 1px #8f8f8f;
+}
+
+input[type="text"]:focus {
+	outline: none;
+	border: solid 1px #B5794E;
+}
+
+
+button {
+	background: #3498DB;
+	border: 1px solid transparent;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 300;
+	padding: 8px 12px;
+	border-radius: 3px;
+
+}
+
+button:hover {
+	background: #4ca1da;
+	cursor: pointer;
+}
+
+button:active {
+	background: #3387c0;
+}
+
+button:focus {
+	outline: none;
+}
+
+.col3 {
+	max-width: 75rem;
+	margin: 60px auto 40px auto;
+
+}
+
+.col3 > div {
+	width: 27%;
+	height: 320px;
+	display: inline-block;
+	margin-left: 4%;
+	background: url("../images/coffee-shop-pic.png");
+	background-size: cover;
+	font-family: 'Comfortaa', cursive;
+	color: #fff;
+}
+
+.info {
+	position: relative;
+	bottom: 0;
+	padding-left: 10px;
+	padding-top: 260px;
+}
+
+.info h3 {
+	font-size: 20px;
+	font-weight: 300;
+	padding-bottom: 5px;
+}
+
+div.info:nth-child(2) {
+	font-size: 16px;
+	font-weight: 300;
+}
+
+div.info:last-child {
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.p-info p {
+	display: inline-block;
+}
+
+div.p-info + p {
+	padding-right: 20px;
+}
+
+.p-left {
+	padding-left: 90px;
+}
+
+
+
